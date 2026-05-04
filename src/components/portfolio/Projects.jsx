@@ -62,7 +62,7 @@ function SectionLabel({ children }) {
 
 export default function Projects() {
   return (
-    <section id="projects" className="py-28 px-6" style={{ background: "#0A0A0A" }}>
+    <section id="projects" className="py-28 px-6" style={{ background: "#121212" }}>
       <div className="max-w-6xl mx-auto">
         <SectionLabel>
           <span className="text-xs font-inter font-semibold tracking-[0.18em] uppercase text-[#C9A84C]/70">
@@ -78,7 +78,7 @@ export default function Projects() {
 
         {/* Solo Projects */}
         <div className="mb-16">
-          <p className="text-xs font-inter font-semibold tracking-[0.15em] uppercase text-[#C9A84C]/50 mb-6 pb-3 border-b border-white/[0.07]">
+          <p className="text-xs font-inter font-semibold tracking-[0.15em] uppercase text-[#C9A84C]/50 mb-6 pb-3 border-b border-white/10">
             Solo Projects
           </p>
           <div className="grid md:grid-cols-2 gap-6">
@@ -90,7 +90,7 @@ export default function Projects() {
 
         {/* Solo — Design & E-Commerce */}
         <div className="mb-16">
-          <p className="text-xs font-inter font-semibold tracking-[0.15em] uppercase text-[#C9A84C]/50 mb-6 pb-3 border-b border-white/[0.07]">
+          <p className="text-xs font-inter font-semibold tracking-[0.15em] uppercase text-[#C9A84C]/50 mb-6 pb-3 border-b border-white/10">
             Design &amp; E-Commerce
           </p>
           <div className="grid md:grid-cols-2 gap-6">
@@ -100,7 +100,7 @@ export default function Projects() {
 
         {/* Collaboration */}
         <div className="mb-16">
-          <p className="text-xs font-inter font-semibold tracking-[0.15em] uppercase text-[#C9A84C]/50 mb-6 pb-3 border-b border-white/[0.07]">
+          <p className="text-xs font-inter font-semibold tracking-[0.15em] uppercase text-[#C9A84C]/50 mb-6 pb-3 border-b border-white/10">
             Collaboration
           </p>
           <div className="grid md:grid-cols-2 gap-6">
@@ -112,7 +112,7 @@ export default function Projects() {
 
         {/* Coming Soon */}
         <div>
-          <p className="text-xs font-inter font-semibold tracking-[0.15em] uppercase text-[#C9A84C]/50 mb-6 pb-3 border-b border-white/[0.07]">
+          <p className="text-xs font-inter font-semibold tracking-[0.15em] uppercase text-[#C9A84C]/50 mb-6 pb-3 border-b border-white/10">
             Coming Soon
           </p>
           <div className="grid md:grid-cols-3 gap-6">

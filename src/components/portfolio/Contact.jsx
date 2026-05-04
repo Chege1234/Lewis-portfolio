@@ -36,8 +36,8 @@ function ContactLink({ link, index }) {
       initial={{ opacity: 0, y: 20 }}
       animate={inView ? { opacity: 1, y: 0 } : {}}
       transition={{ duration: 0.6, delay: index * 0.1 }}
-      className="group flex flex-col items-center gap-3 p-7 border border-white/[0.07] rounded-2xl hover:border-[#C9A84C]/30 transition-all duration-300 text-center"
-      style={{ background: "#0d0d0d" }}
+      className="group flex flex-col items-center gap-3 p-7 border border-white/10 rounded-2xl hover:border-[#C9A84C]/30 transition-all duration-300 text-center"
+      style={{ background: "#1c1c1c" }}
     >
       <div className="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center group-hover:border-[#C9A84C]/40 group-hover:bg-[#C9A84C]/10 transition-all duration-300">
         <Icon className="w-4 h-4 text-[#F5F0E8]/30 group-hover:text-[#C9A84C] transition-colors duration-300" />
@@ -60,7 +60,7 @@ export default function Contact() {
   const inView = useInView(ref, { once: true, margin: "-60px" });
 
   return (
-    <section id="contact" className="py-28 px-6" style={{ background: "#0A0A0A" }}>
+    <section id="contact" className="py-28 px-6" style={{ background: "#121212" }}>
       <div className="max-w-4xl mx-auto">
         <motion.div
           ref={ref}

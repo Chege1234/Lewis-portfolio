@@ -14,7 +14,7 @@ export default function Portfolio() {
   }
 
   return (
-    <div className="min-h-screen relative" style={{ background: "#0A0A0A" }}>
+    <div className="min-h-screen relative" style={{ background: "#121212" }}>
       {/* Grain texture overlay */}
 
       <div className="fixed inset-0 pointer-events-none z-[999]" style={{ opacity: 0.03 }}>

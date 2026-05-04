@@ -18,7 +18,7 @@ export default function ProjectCard({ project, index }) {
       initial={{ opacity: 0, y: 32 }}
       animate={inView ? { opacity: 1, y: 0 } : {}}
       transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1], delay: index * 0.12 }}
-      className="group relative flex flex-col rounded-2xl overflow-hidden border border-white/[0.07] bg-[#0d0d0d]/90 backdrop-blur-sm hover:-translate-y-1 hover:border-[#C9A84C]/30 transition-all duration-400"
+      className="group relative flex flex-col rounded-2xl overflow-hidden border border-white/10 bg-[#1c1c1c]/90 backdrop-blur-sm hover:-translate-y-1 hover:border-[#C9A84C]/30 transition-all duration-400"
       style={{
         boxShadow: "0 0 0 0 rgba(201,168,76,0)",
       }}
@@ -27,7 +27,7 @@ export default function ProjectCard({ project, index }) {
       }}
     >
       {/* Browser frame bar */}
-      <div className="flex items-center gap-3 px-4 py-3 bg-[#111]/80 border-b border-white/[0.06]">
+      <div className="flex items-center gap-3 px-4 py-3 bg-[#242424]/80 border-b border-white/10">
         <div className="flex gap-1.5">
           <div className="w-2.5 h-2.5 rounded-full bg-white/10" />
           <div className="w-2.5 h-2.5 rounded-full bg-white/10" />
@@ -43,7 +43,7 @@ export default function ProjectCard({ project, index }) {
       {/* Preview image (if any) */}
       {project.previewImage && (
         <div
-          className="overflow-hidden border-b border-white/[0.06]"
+          className="overflow-hidden border-b border-white/10"
           style={project.fullImage ? {} : { height: "11rem" }}
         >
           <img
@@ -100,7 +100,7 @@ export default function ProjectCard({ project, index }) {
         </div>
 
         {/* Links */}
-        <div className="flex gap-4 mt-auto pt-4 border-t border-white/[0.06]">
+        <div className="flex gap-4 mt-auto pt-4 border-t border-white/10">
           {project.github && (
             <a
               href={project.github}

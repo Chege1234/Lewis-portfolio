@@ -19,7 +19,7 @@ function FadeSection({ children, delay = 0 }) {
 
 export default function About() {
   return (
-    <section id="about" className="py-28 px-6" style={{ background: "#0A0A0A" }}>
+    <section id="about" className="py-28 px-6" style={{ background: "#121212" }}>
       <div className="max-w-3xl mx-auto">
         <FadeSection>
           <span className="text-xs font-inter font-semibold tracking-[0.18em] uppercase text-[#C9A84C]/70">

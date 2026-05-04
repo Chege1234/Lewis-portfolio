@@ -14,13 +14,13 @@ export default function Hero() {
   };
 
   return (
-    <section className="min-h-screen flex flex-col justify-center items-center text-center px-6 pt-20 pb-16 relative overflow-hidden bg-[#0A0A0A]">
+    <section className="min-h-screen flex flex-col justify-center items-center text-center px-6 pt-20 pb-16 relative overflow-hidden bg-[#121212]">
       {/* Particle Canvas background */}
       <ParticleCanvas />
 
       {/* Subtle radial vignette */}
       <div className="absolute inset-0 pointer-events-none"
-        style={{ background: "radial-gradient(ellipse at 50% 50%, transparent 40%, rgba(10,10,10,0.7) 100%)" }}
+        style={{ background: "radial-gradient(ellipse at 50% 50%, transparent 40%, rgba(18,18,18,0.7) 100%)" }}
       />
 
       <div className="max-w-4xl mx-auto relative z-10">
@@ -52,7 +52,7 @@ export default function Hero() {
         <motion.div {...fadeUp(0.55)} className="flex flex-col sm:flex-row gap-3 justify-center">
           <button
             onClick={() => scrollTo("projects")}
-            className="px-6 py-3 rounded-full bg-[#C9A84C] text-[#0A0A0A] text-sm font-inter font-semibold hover:bg-[#D4B56A] transition-all duration-200"
+            className="px-6 py-3 rounded-full bg-[#C9A84C] text-[#121212] text-sm font-inter font-semibold hover:bg-[#D4B56A] transition-all duration-200"
           >
             View Projects
           </button>

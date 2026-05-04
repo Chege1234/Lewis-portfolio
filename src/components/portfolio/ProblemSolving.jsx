@@ -33,8 +33,8 @@ function StepCard({ step, index }) {
       initial={{ opacity: 0, y: 24 }}
       animate={inView ? { opacity: 1, y: 0 } : {}}
       transition={{ duration: 0.65, ease: [0.22, 1, 0.36, 1], delay: index * 0.1 }}
-      className="group relative p-7 border border-white/[0.07] rounded-2xl hover:border-[#C9A84C]/25 transition-all duration-300"
-      style={{ background: "#0d0d0d" }}
+      className="group relative p-7 border border-white/10 rounded-2xl hover:border-[#C9A84C]/25 transition-all duration-300"
+      style={{ background: "#1c1c1c" }}
     >
       <span className="font-playfair text-4xl font-bold text-white/[0.04] group-hover:text-[#C9A84C]/10 transition-colors duration-300 absolute top-6 right-7">
         {step.number}
@@ -54,7 +54,7 @@ export default function ProblemSolving() {
   const inView = useInView(ref, { once: true, margin: "-60px" });
 
   return (
-    <section id="approach" className="py-28 px-6" style={{ background: "#0A0A0A" }}>
+    <section id="approach" className="py-28 px-6" style={{ background: "#121212" }}>
       <div className="max-w-6xl mx-auto">
         <motion.div
           ref={ref}
