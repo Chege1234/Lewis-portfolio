@@ -1,3 +1,5 @@
+"use client";
+
 import { useRef } from "react";
 import { useInView, motion } from "framer-motion";
 import { ExternalLink, Github } from "lucide-react";

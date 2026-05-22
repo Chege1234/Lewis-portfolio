@@ -1,3 +1,5 @@
+"use client";
+
 import { useRef } from "react";
 import { useInView, motion } from "framer-motion";
 import ProjectCard from "./ProjectCard";
@@ -36,11 +38,12 @@ const skinwellProject = {
 
 const collabProjects = [
   {
-    name: "Campus Market",
+    name: "Campus Marketplace",
     problem: "Students lack a trusted, campus-specific platform for peer-to-peer commerce — falling back on generic social media groups with no structure.",
     solution: "A dedicated campus marketplace with product listings, search, messaging, and user verification — built specifically for the student ecosystem. Built as a 5-member team collaboration.",
     stack: ["React", "Node.js", "MySQL", "PHP", "REST API", "Tailwind CSS"],
     github: "https://github.com/Carlm832/CampusMarket",
+    live: "https://campusmarketplace.site",
     badge: "5-Member Team",
   },
 ];

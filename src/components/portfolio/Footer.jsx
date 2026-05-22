@@ -1,3 +1,5 @@
+"use client";
+
 export default function Footer() {
   return (
     <footer className="py-8 px-6 border-t border-white/10" style={{ background: "#121212" }}>
