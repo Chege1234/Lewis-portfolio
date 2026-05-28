@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" width="180" height="180">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e2433"/>
+      <stop offset="50%" stop-color="#161b26"/>
+      <stop offset="100%" stop-color="#0f1219"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e8eaf0"/>
+      <stop offset="100%" stop-color="#c0c5d4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Full background (iOS will clip to rounded rect) -->
+  <rect width="180" height="180" fill="url(#bg)"/>
+
+  <!-- Subtle glow -->
+  <circle cx="40" cy="40" r="65" fill="#4a506a" opacity="0.06"/>
+
+  <!-- "L" -->
+  <text
+    x="38"
+    y="122"
+    font-family="Georgia, 'Playfair Display', 'Times New Roman', serif"
+    font-weight="600"
+    font-size="92"
+    fill="url(#accent)"
+    letter-spacing="-3"
+  >L</text>
+
+  <!-- "C" -->
+  <text
+    x="88"
+    y="122"
+    font-family="Georgia, 'Playfair Display', 'Times New Roman', serif"
+    font-weight="600"
+    font-size="92"
+    fill="url(#accent)"
+    opacity="0.75"
+    letter-spacing="-3"
+  >C</text>
+
+  <!-- Bottom accent line -->
+  <rect x="40" y="132" width="96" height="1.5" rx="0.75" fill="url(#accent)" opacity="0.3"/>
+</svg>

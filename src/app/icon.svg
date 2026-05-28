@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <!-- Sophisticated gradient matching the site's dark blue-gray palette -->
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e2433"/>
+      <stop offset="50%" stop-color="#161b26"/>
+      <stop offset="100%" stop-color="#0f1219"/>
+    </linearGradient>
+    <!-- Subtle accent glow -->
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e8eaf0"/>
+      <stop offset="100%" stop-color="#c0c5d4"/>
+    </linearGradient>
+    <!-- Border shimmer -->
+    <linearGradient id="border" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3a4055"/>
+      <stop offset="40%" stop-color="#4a506a"/>
+      <stop offset="100%" stop-color="#2e3345"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Rounded square background with border -->
+  <rect x="8" y="8" width="496" height="496" rx="96" ry="96" fill="url(#border)"/>
+  <rect x="12" y="12" width="488" height="488" rx="92" ry="92" fill="url(#bg)"/>
+
+  <!-- Decorative corner accent — top-left subtle glow -->
+  <circle cx="120" cy="120" r="180" fill="#4a506a" opacity="0.06"/>
+
+  <!-- "L" letter — elegant, slightly serifed -->
+  <text
+    x="128"
+    y="340"
+    font-family="Georgia, 'Playfair Display', 'Times New Roman', serif"
+    font-weight="600"
+    font-size="260"
+    fill="url(#accent)"
+    letter-spacing="-8"
+  >L</text>
+
+  <!-- "C" letter — overlapping, slightly smaller for depth -->
+  <text
+    x="268"
+    y="340"
+    font-family="Georgia, 'Playfair Display', 'Times New Roman', serif"
+    font-weight="600"
+    font-size="260"
+    fill="url(#accent)"
+    opacity="0.75"
+    letter-spacing="-8"
+  >C</text>
+
+  <!-- Subtle bottom accent line -->
+  <rect x="120" y="370" width="272" height="3" rx="1.5" fill="url(#accent)" opacity="0.3"/>
+</svg>
